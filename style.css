@@ -1,0 +1,242 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Roboto;
+	font-weight: 300;
+}
+.wrapper {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+header {
+	width: 100%;
+}
+	header .top {
+		/*background: #F9F9F9;*/
+		height: 67px;
+		display: flex;
+	}
+		header .top .inside {
+			width: 1232px;
+			margin: 0 auto;
+		}
+		.header-container {
+			width: 740px;
+			display: flex;
+			height: 100%;
+			align-items: center;
+			margin-left: 30px;
+		}
+			header .top .inside .logo {
+				width: auto;
+				display: flex;
+				}
+				header .top .inside .logo img {
+					width: 60px;
+				}
+				header .top .inside .logo p {
+					width: 140px;
+					margin-left: 18px;
+					font-size: 13pt;
+					font-variant: small-caps;
+				}
+				header .top .inside .adress,
+				header .top .inside .phone,
+				header .top .inside .callback {
+					margin-left: 52px;
+				}
+					header .top .inside .adress p.city {
+						font-size: 17px;
+					}
+					header .top .inside .adress p.street {
+						font-family: Open Sans;
+						font-size: 14px;
+						line-height: 24px;
+					}
+					header .top .inside .phone .time {
+						font-family: Open Sans;
+						font-size: 14px;
+						line-height: 24px;
+						text-align: center;
+					}
+					header .top .inside .callback button {
+						font-family: Open Sans;
+						background: #d7dfe8;
+						border: none;
+						width: 122px;
+						padding: 10px 15px;
+						font-size: 12px;
+						border-radius: 2px;
+						cursor: pointer;
+						outline: inherit;
+						font-weight: 600;
+						color: #555555;
+					}
+					header .top .inside .callback button:hover {
+						background: #C7CFD8;
+						transition: 0.3s;
+					}
+	header .menu {
+		height: 39px;
+		background: #444547;
+		width: 100%;
+	}
+		header .menu nav {
+			line-height: 37px;
+			width: 800px;
+			margin-left: 20px;
+		}
+			header .menu nav ul li {
+				display: inline-block;
+				margin-right: 28px;
+				font-size: 15px;
+				color: #ffffff;
+				font-family: Open Sans;
+			}
+			header .menu nav ul :last-child {
+				margin-right: 0;
+			}
+				header .menu nav ul li input {
+					width: 110px;
+					padding-left: 10px;
+					box-sizing: border-box;
+					border: none;
+					height: 24px;
+					outline: none;
+				}
+.content {
+	/*background: #d7dfe8;*/
+	background: #f7f7f7;
+	position: relative;
+	  /* 107 */
+		top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+		min-height: 75vh;
+}
+.container {
+	width: 1232px;
+	margin: 0 auto;
+	display: flex;
+}
+.sidebar {
+	width: 230px;
+	height: 250px;
+	margin-top: 57px;
+	padding: 0 25px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.sidebar-title {
+	text-align: center;
+	margin: 30px 0 0 0;
+  font: 16px Open Sans;
+	font-weight: 600;
+	color: #444444;
+}
+.sidebar p {
+	margin: 10px 0 10px 0;
+	line-height: 21px;
+}
+.sidebar label,
+.sidebar input {
+	display: inline-block;
+	vertical-align: middle;
+}
+.sidebar input {
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.sidebar span {
+	vertical-align: middle;
+}
+.sidebar label {
+	line-height: 23px;
+  margin-left: 5px;
+	font-size: 14px;
+	width: 100%;
+}
+.sidebar button {
+	border: none;
+	background: #ddd;
+	width: 95%;
+	margin: 12px 0 5px;
+	height: 35px;
+	border-radius: 1px;
+	cursor: pointer;
+	outline: inherit;
+	color: #555555;
+}
+.sidebar button:hover {
+	background: #ccc;
+	transition: 0.3s;
+}
+.sidebar a {
+	color: #000;
+	display: block;
+	margin: 0 auto;
+	width: 110px;
+}
+.sidebar a:hover {
+	text-decoration: none;
+}
+	.content main {
+		width: 750px;
+		padding: 20px;
+		margin-bottom: 30px;
+	}
+	.breadcrumbs {
+		font: 13px Verdana;
+		margin: 15px 0 25px 0;
+		color: #444444;
+	}
+		.content-text {
+			padding: 50px;
+			border-radius: 5px;
+			background: #ffffff;
+			border: 1px solid #eee;
+		}
+			.content-text h1 {
+				font-family: Open Sans;
+				font-size: 24px;
+				font-weight: 600;
+				line-height: 24px;
+				margin-bottom: 18px;
+			}
+			.content-text p {
+				line-height: 25px;
+				margin-top: 15px;
+				font-weight: 400;
+				font: 16px/24px Open Sans;
+			}
+.footer {
+	width: 100%;
+	background: #e8e8e8;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+	.footer-container {
+		display: flex;
+		width: 1190px;
+	}
+		.footer-column {
+			margin: 0 83px 0 0;
+			color: #444444;
+		}
+			.footer-column span {
+				font-weight: 500;
+				font-size: 18px;
+				display: block;
+				margin: 0 0 10px 0;
+			}
+			.footer p {
+				margin: 7px 0;
+				font-size: 15px;
+				line-height: 19px;
+			}
